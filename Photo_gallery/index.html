@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Gallery</title>
+  <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body>
+  
+  <div id="image">Hover over an image below to display here.</div>
+  
+  <div class="gallery">
+    <img class="preview" alt="puppy 1" src="images/1.png" onmouseover="upDate(this)" onmouseout="unDo()">
+    <img class="preview" alt="puppy 2" src="images/2.png" onmouseover="upDate(this)" onmouseout="unDo()">
+    <img class="preview" alt="puppy 3" src="images/3.png" onmouseover="upDate(this)" onmouseout="unDo()">
+  </div>
+
+  <script src="js/gallery.js"></script>
+</body>
+</html>
